@@ -1,0 +1,28 @@
+{
+  "name": "ai-travel-assistant",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "genkit start -- npx tsx genkit.config.ts"
+  },
+  "exports": {
+    ".": "./genkit.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@genkit-ai/googleai": "^1.25.0",
+    "genkitx-ollama": "^1.25.0",
+    "@genkit-ai/compat-oai": "^1.25.0",
+    "genkit": "^1.25.0",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "genkit-cli": "^1.25.0"
+  }
+}
