@@ -21,7 +21,7 @@ An AI-powered travel assistant built with Firebase Genkit that helps users plan 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/nirmalgupta/ai-travel-assistant.git
 cd ai-travel-assistant
 ```
 
